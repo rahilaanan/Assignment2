@@ -39,6 +39,7 @@
 
     .banner-des {
         margin-top: 0px;
+        width: 100%;
     }
 
     .banner-form {
@@ -101,8 +102,14 @@
 
     .choose-us-section .card3 {
         width: 82%;
-    }
 
+    }
+    .shanghai{
+      
+       width: 100%;
+       margin-left: -20px;
+    
+    }
     .newsletter {
         flex-direction: column;
         padding-left: 80px;

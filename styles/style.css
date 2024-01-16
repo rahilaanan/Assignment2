@@ -88,7 +88,9 @@ nav li>a {
 
 .banner-des {
     color: #FFF;
-
+    width: 750px;
+margin-left: auto;
+margin-right: auto;
     text-align: center;
     font-family: Mulish;
     font-size: 16px;
@@ -310,13 +312,23 @@ nav li>a {
     margin-left: auto;
     margin-right: auto;
 }
+/*
+optional part 2
+*/
 
+.shanghai{
+    margin-top: 20px;
+    width: 680px;
+    height: 480px;
+    border-radius: 16px;
+
+}
 /* Newsletter section */
 
 .newsletter {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 50px;
     margin-top: 100px;
 
 
