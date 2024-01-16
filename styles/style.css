@@ -2,12 +2,20 @@
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    width: 1170px;
 
 
+}
+#hamburger{
+   
+    margin-top: 0px;
+    padding-top: 10px;
+    display: none;
+    
 }
 
 #navicon {
