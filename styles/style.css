@@ -19,7 +19,7 @@ nav img {
     height: 56px;
 }
 
-nav h3 {
+nav h3, footer h3 {
     color: #131318;
     font-size: 36px;
     font-weight: 800;
@@ -399,3 +399,24 @@ font-weight: 700;
 cursor: pointer;
   }
   
+  /* footer style */
+
+  footer{
+margin-top: 100px;
+text-align: center;
+background: rgba(19, 19, 24, 0.05);
+  }
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-icon img{
+    width: 49px;
+    height: 46px;
+
+}
+footer hr{
+    width: 60%;
+}
