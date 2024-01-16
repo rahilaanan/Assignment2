@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destinations</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -33,34 +34,43 @@
         <section class="banner-section">
             <h1 class="banner-title">Explore Your Travel</h1>
             <p class="banner-des">Our curated itineraries promise seamless journeys, unlocking the world's wonders for
-                <br> unforgettable moments. Join us in crafting your story, one adventure at a time.</p>
+                unforgettable moments. Join us in crafting your story, one adventure at a time.</p>
 
             <div class="banner-form">
-                <form action="">
+                
+                   <div>
                     <input type="text" class="when" name="" placeholder="Where to go">
+                   </div>
 
-                    <select name="When" class="when">
-                        <option value="" disabled selected hidden>When</option>
-                        <option value="December">December</option>
-                        <option value="January">January</option>
-                        <option value="July">July</option>
-                        <option value="August">August</option>
-                    </select>
-                    <select name="type" class="when">
-                        <option value="" disabled selected hidden>Select Type</option>
-                        <option value="Solo">Solo</option>
-                        <option value="Couple">Couple</option>
-                        <option value="Family">Family</option>
-
-                    </select>
-                </form>
-                <button class="btn-primary"><i class="fa-solid fa-magnifying-glass"></i> </i> Find Now</button>
+                    <div>
+                        <select name="When" id="When" class="when">
+                            <option value="" disabled selected hidden>When</option>
+                            <option value="December">December</option>
+                            <option value="January">January</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select name="type" id="Type"  class="when">
+                            <option value="" disabled selected hidden>Select Type</option>
+                            <option value="Solo">Solo</option>
+                            <option value="Couple">Couple</option>
+                            <option value="Family">Family</option>
+    
+                        </select>
+                    </div>
+                    <div>
+                        <input type="button" value="Find Now" class="btn-primary" style="background-color: #FF5400;">
+                    </div>
+                
+                
 
             </div>
         </section>
     </header>
     <main>
-        <section>
+        <section class="popular-tours">
             <div class="popular-tour">
                 <div class="popular-tour-des">
                    
@@ -118,7 +128,7 @@
             <div class="centered">Bangladesh</div>
             
         </div>
-        <div class="container"><img class="" src="Images/Rectangle 10.png" alt="">
+        <div class="container"><img  class="" src="Images/Rectangle 10.png" alt="">
             <div class="centered">Bandarban</div>
         </div>
         
@@ -154,13 +164,13 @@
         </section>
 
         <section class="newsletter">
-          <div>
+          <div id="form-border">
             <h3 class="newsletter-title">Newsletter</h3>
-            <p id="Signup" class="tour-des">Get your daily dose of travel news & tips. Sign up today!</p>
+            <p id="Signup" class="tour-des">Get your daily dose of travel news. Sign up today!</p>
             <br>
             <br>
             
-            <form action="" class="form2">
+            <form  action="" class="form2">
                 <hr>
                 <br>
                 <input type="text" placeholder="Enter your name" class="when" > <br>
@@ -169,7 +179,7 @@
             </form>
           </div>
           <div class="newsletter-img">
-            <img src="Images/Rectangle 8 (1).png" alt="">
+            <img id="last-img" src="Images/Rectangle 8 (1).png" alt="">
             <div class="discount">
                 <p>Journey Genie.com <br>
                 </p>
@@ -191,9 +201,8 @@
     <br>
 <img src="Images/icons/Social.svg" alt="">
 <br>
-<br>
 <hr>
-<br>
+
 <p class="tour-des" style="padding-bottom: 60px;">2024, All Rights Reserved.</p>
     </footer>
 </body>
