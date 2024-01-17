@@ -253,7 +253,8 @@ margin-right: auto;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-/* optional part2*/
+
+/* optional part 1*/
 .cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -269,13 +270,13 @@ margin-right: auto;
     border-radius: 15px;
     text-align: center;
     margin-left: -15px;
-    transition: 1s;
+   /* transition: 1s;*/
   
-}
+}/*
 .card:hover{
     transform: rotate(10deg);
    
-}
+}*/
 #tourParagraph{
     text-align: center;
 }
@@ -285,17 +286,27 @@ margin-right: auto;
     font-family: Mulish;
     font-size: 28px;
     font-weight: 600;
+   
 }
-.card p{
+.card p,h4{
    padding-bottom: 5px;
     color: #424247;
     font-family: Mulish;
     font-size: 20px;
     font-weight: 400;
 }
+.card h4{
+    color: #FF5400;
+   
+}
+
+
 .card button{
     margin-bottom: 15px;
     padding-top: 10px;
+}
+.card button:hover{
+    transform: scale(1.1);
 }
 .card-img{
     width: 300px;
@@ -305,8 +316,25 @@ margin-right: auto;
     padding-top: 30px;
     padding-bottom: 0px;
     text-align: center;
+    transition: 1s;
+    position: relative;
    
 }
+.card-img:hover{
+    transform: scale(1.4);
+    
+}
+.travel-icon{
+
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 25px;
+    transition: 0.01s;
+     
+}
+
 
 /* choose us section */
 .choose-us-section>p {
